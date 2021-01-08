@@ -1,0 +1,20 @@
+\documentclass[12pt,english, abstracton, headsepline]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[resetlabels,labeled]{multibib}
+
+\newcites{O}{Presentations}
+\newcites{P}{Publications}
+
+\begin{document}
+
+\nociteO{*}
+
+\bibliographystyleO{plain}
+\bibliographyO{talks}
+
+\nociteP{*}
+
+\bibliographystyleP{plain}
+\bibliographyP{paper}
+
+\end{document}
